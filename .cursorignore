@@ -1,0 +1,148 @@
+# =========================================================
+# Core / VCS / OS / Editor noise
+# =========================================================
+.git/
+.hg/
+.svn/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.history/
+*.swp
+*.swo
+
+# =========================================================
+# Secrets / env
+# NOTE:
+# .cursorignore is NOT a security boundary, but still keep
+# sensitive files out of model context by default.
+# =========================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+*.secret
+
+# =========================================================
+# Logs / temp / cache / reports
+# =========================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+tmp/
+temp/
+.cache/
+coverage/
+.nyc_output/
+reports/
+
+# =========================================================
+# Package manager / lockfiles / dependencies
+# =========================================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+vendor/bin/
+
+# =========================================================
+# Compiled / generated / minified / maps
+# =========================================================
+dist/
+build/
+out/
+release/
+debug/
+*.min.js
+*.min.css
+*.map
+
+# =========================================================
+# Vite / React / frontend toolchains
+# =========================================================
+.next/
+.nuxt/
+.parcel-cache/
+.turbo/
+.svelte-kit/
+storybook-static/
+.vercel/
+vite.svg
+
+# =========================================================
+# TypeScript / JS incremental artifacts
+# =========================================================
+*.tsbuildinfo
+
+# =========================================================
+# Python
+# =========================================================
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# =========================================================
+# NestJS / Node uploads / runtime artifacts
+# =========================================================
+uploads/
+storage/tmp/
+storage/cache/
+
+# =========================================================
+# WordPress
+# Keep custom code readable, ignore heavy/generated/cache data
+# =========================================================
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/cache/
+wp-content/uploads/backups/
+wp-content/ai1wm-backups/
+wp-content/backups/
+wp-content/backup-db/
+wp-content/wflogs/
+wp-content/debug.log
+wp-content/litespeed/
+wp-content/et-cache/
+wp-content/cache-config/
+wp-content/uploads/*
+!wp-content/uploads/.gitkeep
+
+# Optional:
+# If you store important design/reference assets in uploads and
+# want Cursor to see them, remove the uploads/* rule above.
+
+# Common plugin-generated assets
+wp-content/plugins/*/vendor/
+wp-content/plugins/*/node_modules/
+wp-content/themes/*/node_modules/
+wp-content/themes/*/dist/
+wp-content/themes/*/build/
+
+# =========================================================
+# Archives / dumps / binaries
+# =========================================================
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.sql
+*.sqlite
+*.sqlite3
+*.bak
+*.backup
+*.dump

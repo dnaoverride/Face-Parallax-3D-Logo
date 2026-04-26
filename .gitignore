@@ -1,0 +1,47 @@
+# deps & build
+node_modules
+dist
+dist-ssr
+*.local
+
+# env (secrets)
+.env
+.env.*
+!.env.example
+
+# logs & debug
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+
+# editor / IDE
+.cursor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+node_modules/.tmp
+
+# testing / coverage
+coverage
+
+# Vite
+.vite
+.cache
+
+# misc
+.turbo
+.vercel
+*.orig

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <!-- Outer hexagon -->
+  <polygon fill="#38bdf8" points="120,20 200,65 200,155 120,200 40,155 40,65"/>
+  <!-- Inner hexagon -->
+  <polygon fill="#0ea5e9" points="120,48 178,80 178,145 120,177 62,145 62,80"/>
+  <!-- Center diamond -->
+  <polygon fill="#7dd3fc" points="120,72 152,108 120,144 88,108"/>
+</svg>
